@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias Em HTML</title>
+</head>
+<body>
+    <h1>Imagen dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferente ou simplesmente diminua ou almente o tamanho do seu navegador </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotoP.png" type="image/png"> 
+
+        <source media="(max-width: 1050px)" srcset="imagens/fotoM.png" type="image/png"> 
+
+        <img src="imagens/FotoG.png" alt="image flexivei">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vaos aprender a reproduzir audios em HTML</p>
+     <audio preload="metadata" autoplay controls loop> <source src="midia/Addis Ababa - The Mini Vandals.mp3" type="audio/mpeg"> </audio>
+     <source src="midia/Addis Ababa - The Mini Vandals.mp3" type="audio/ogg">
+     <source src="midia/Addis Ababa - The Mini Vandals.mp3" type="wav">
+     <!--MP3 , WAV , OGG-->
+
+</body>
+</html>

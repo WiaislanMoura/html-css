@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* 
+body{
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+   background-image: linear-gradient(to right,#F1D8C9,#A7F205);
+}
+
+main{
+   background-color:white;
+   border-radius: 10px;
+   box-shadow: 5px 5px 15px #53534f;
+   width: 600px;
+   padding: 10px;
+   margin: auto;
+}
+
+h1{
+   font-family: 'Bangers', cursiva;
+   font-size: center;
+   color: #032413;
+}
+
+h2{
+   font-family:  'Bebas Neue', sem serifa;;
+   font-size: center;
+    color: #12589E;
+    text-shadow: 2px 1px 2px #0f3658
+}
+
+ p{
+    text-align: justify;
+ }
+
